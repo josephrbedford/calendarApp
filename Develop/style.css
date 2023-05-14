@@ -1,4 +1,22 @@
 body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-size: 2em;
+  color: blue;
+}
+
+p {
+  margin: 1em 0;
+}
+
+ul, ol {
+  list-style-type: disc;
+}
+
+body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
@@ -8,7 +26,6 @@ textarea {
   border: none;
   resize: none;
   color: #000000;
-  border-left: 1px solid black;
   padding: 10px;
 }
 
@@ -21,13 +38,15 @@ textarea {
 }
 
 .row {
+  --bs-gutter-x: 0rem;
   border-top: 1px solid white;
+  padding-left: 1rem;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 4px solid grey;
 }
 
 .col-sm-8.row.past {

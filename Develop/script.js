@@ -46,7 +46,7 @@ function generateTimeslots() {
     var savedTask = localStorage.getItem(hour) || '';
     var html = `<div class="row" data-hour="${hour}">
     
-      <div class="col-sm-2 hour">${hour}</div>
+      <div class="col-sm-2 hour">${hour}:00</div>
       <div class="col-sm-8 row past">
         <textarea class="col-md-10 description">${savedTask}</textarea>
       </div>
@@ -63,7 +63,7 @@ function generateTimeslots() {
     var savedTask = localStorage.getItem(hour) || '';
     var html = `<div class="row" data-hour="${hour}">
     
-      <div class="col-sm-2 hour">${hour}</div>
+      <div class="col-sm-2 hour">${hour}:00</div>
       <div class="col-sm-8 row present">
         <textarea class="col-md-10 description">${savedTask}</textarea>
       </div>
@@ -81,7 +81,7 @@ function generateTimeslots() {
       var savedTask = localStorage.getItem(hour) || '';
       var html = `<div class="row" data-hour="${hour}">
       
-        <div class="col-sm-2 hour">${hour}</div>
+        <div class="col-sm-2 hour">${hour}:00</div>
         <div class="col-sm-8 row future">
           <textarea class="col-md-10 description">${savedTask}</textarea>
         </div>
