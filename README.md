@@ -24,4 +24,4 @@ Please refer to the LICENSE in the repo.
 
 ## Screenshot
 
-![Screenshot](./assets/screenshot.jpg)
+![Screenshot](/assets/screenshot.jpg)
